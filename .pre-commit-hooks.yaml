@@ -1,0 +1,5 @@
+- id: kubeconform
+  name: "Run Kubeconform on yaml files"
+  description : "Run Kubeconform on yaml files"
+  entry: ./kubeconform.sh
+  language: script
