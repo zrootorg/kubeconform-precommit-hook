@@ -3,3 +3,4 @@
   description : "Run Kubeconform on yaml files"
   entry: ./kubeconform.sh
   language: script
+  files: \.(yaml|yml)$
