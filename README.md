@@ -1,6 +1,6 @@
 # Kubeconform pre-commit hook
 
-Use kubeconform as a [pre-commit](https://pre-commit.com/) hook.
+Use [kubeconform](https://github.com/yannh/kubeconform/) as a [pre-commit](https://pre-commit.com/) hook.
 
 ## Usage
 
@@ -10,5 +10,5 @@ Use kubeconform as a [pre-commit](https://pre-commit.com/) hook.
   hooks:
     - id: kubeconform
       args:
-        - --path=./kubernetes
+        - -p./kubernetes
 ```
